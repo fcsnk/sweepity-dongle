@@ -38,9 +38,13 @@
 
     kscan_left: kscan_left {
         compatible = "zmk,kscan-mock";
+        events = <>;
+        exit-after;
     };
 
     kscan_right: kscan_right {
         compatible = "zmk,kscan-mock";
+        events = <>;
+        exit-after;
     };
 };
